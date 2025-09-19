@@ -24,6 +24,7 @@ dist/
 /logs/
 /checkpoints/
 /outputs/
+/results/
 
 # ========== Large or binary files tracked by Git LFS ==========
 *.pkl
