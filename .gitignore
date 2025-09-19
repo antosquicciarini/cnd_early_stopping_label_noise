@@ -1,0 +1,45 @@
+# ========== Python cache and build artifacts ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ========== Environment files ==========
+.env/
+.venv/
+*.env
+
+# ========== Jupyter and notebook checkpoints ==========
+.ipynb_checkpoints/
+
+# ========== IDE and editor settings ==========
+.vscode/
+.idea/
+.DS_Store
+
+# ========== Project-specific: ignore large or sensitive data ==========
+/data/
+/models/
+/logs/
+/checkpoints/
+/outputs/
+
+# ========== Large or binary files tracked by Git LFS ==========
+*.pkl
+*.pt
+*.npy
+*.h5
+
+# ========== Optional: logs and outputs ==========
+*.log
+*.out
+
+# ========== Images ==========
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
